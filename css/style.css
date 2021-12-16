@@ -1,0 +1,229 @@
+body{
+	max-width: 100%;
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	height: 2900px;
+}
+
+h4 {
+	font-size: 40px;
+	font-weight: bold;
+	color: aliceblue;
+	text-align: center;
+}
+
+.header {
+	display: flex;
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	align-items: center;
+	align-content: center;
+}
+
+.header_text {
+	display: flex;
+	margin-left: 650px;
+}
+
+.nav_list_item {
+	text-decoration: none;
+	margin-left: 30px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color:#fff;
+}
+
+.main{
+	height: 600px;
+	background: url("/img/bg.png");
+	background-size: cover;
+}
+
+.main_title {
+	margin-left: 40px;
+	padding: 100px;
+}
+
+.main_title h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: aliceblue;
+}
+
+.main_title h2{
+	margin-top: -25px;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgba(255, 145, 44, 1);
+}
+
+.main_title h3{
+	margin-top: -30px;
+	font-size: 40px;
+	font-weight: bold;
+	color: aliceblue;
+}
+
+.menu_button {
+	cursor: pointer;
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 20px;
+	padding: 15px;
+	background: #FF891D;
+	border-radius: 12px;
+}
+
+.menu_button:hover{
+	background: sandybrown;
+}
+
+.menu_button:active{
+	background: #FF891D;
+}
+
+.menu{
+	margin-top: 110px;
+}
+
+.menu_forms{
+	margin-top: 210px;
+	margin-left: 140px;
+	display: flex;
+}
+
+.margarita_form{
+	background: rgba(62, 62, 62, 1);
+	text-align: center;
+	border: none;
+	width: 350px;
+	border-radius: 25px;
+	align-items: center;
+	justify-content: center;
+	height: 440px;
+}
+
+.margarita{
+	margin-top: -130px;
+}
+
+.sicily_form{
+	margin-left: 80px;
+	text-align: center;
+	background: rgba(62, 62, 62, 1);
+	border: none;
+	width: 350px;
+	border-radius: 25px;
+	align-items: center;
+	justify-content: center;
+	height: 440px;
+}
+
+.sicily{
+	margin-top: -130px;
+}
+
+.calcone_form{
+	margin-left: 80px;
+	text-align: center;
+	background: rgba(62, 62, 62, 1);
+	border: none;
+	width: 350px;
+	border-radius: 25px;
+	align-items: center;
+	justify-content: center;
+	height: 440px;
+}
+
+.calcone{
+	margin-top: -130px;
+}
+
+label{
+	color: #F3F3F3;
+	font-size: 30px;
+}
+
+hr{
+	border: none;
+	background-color: orange;
+	color: orange;
+	height: 3px;
+	width: 300px;
+}
+
+p{
+	color: rgba(194, 193, 191, 1);
+	font-size: 20px;
+}
+
+.choose_size{
+	font-size: 20px;
+	color: rgba(137, 137, 137, 1);
+	padding: 20px;
+}
+
+.about{
+	margin-top: 220px;
+	height: 600px;
+}
+
+.info{
+	margin-left: 140px;
+	display: flex;
+}
+
+.images{
+	display: flex;
+}
+
+.text{
+	margin-left: 30px;
+	display: table-column;
+	width: 600px;
+}
+
+.contacts{
+	margin-top: 140px;
+}
+
+.about_content{
+	margin-left: 140px;
+	display: flex;
+}
+
+.about_info{
+	margin-left: 60px;
+	display: table-column;
+}
+
+h5 {
+	font-size: 30px;
+	color: rgba(188, 188, 188, 1);
+	text-align: center;
+}
+
+.line{
+	margin-top: 60px;
+	border: none;
+	background-color: orange;
+	color: orange;
+	height: 3px;
+	width: 100%;
+}
+
+.logos{
+	display: flex;
+	justify-content: center;
+}
+
+.logos ul li{
+	margin-left: 5px;
+}
